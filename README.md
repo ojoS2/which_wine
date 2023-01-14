@@ -14,18 +14,12 @@ The prediction is possible and precise (the model can have over 95% accurancy in
 In these description the sensations presents a rich vocabulary and expressions which are terrible for machine learning algorithms. Nevertheless, the overall structure is workable as long as we have plenty descriptions as the same varieties presents similar characteristics such as *an opaque color and dense* or *density and concentration capped by bright acidity and drying*. What I mean is that for the somellier writing down the description, there are some specific topics to describe and the same variety presents similar descriptions. As te descriptions of those characteristics can be presented in a finite number of ways, the more data over a specific variety, the more precise a natural prossessing language model build to predict this variety will be. This also mean that the majority of the varieties will be useless as few of them prsents more than 100 descriptions.
 
 
+## The examples in the main.py file
 
 
 
 
-  
-
-
-
-
-
-
-#####credits : [Kaggle: Wine Reviews](https://www.kaggle.com/datasets/zynicide/wine-reviews)
+##### Credits : [Kaggle: Wine Reviews](https://www.kaggle.com/datasets/zynicide/wine-reviews)
 
 
 
