@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: which-wine
+Version: 0.1.0
+Summary: A package to analyze wine descriptions
+Home-page: UNKNOWN
+Author: Ricardo S. P. Lopes
+Author-email: ojogodascontasdevidro@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.8
+License-File: LICENSE
+
+UNKNOWN
+
