@@ -144,10 +144,9 @@ def recomendation_system(min_descriptions=1000):
     """
     tools.predict_and_print_recomendations(min_descriptions=min_descriptions)
     return None
-
+# move the dataset to the apropriated file 
 filename = input('write down the path to the file' +
 '"winemag-data-130k-v2.csv" :')
-filename='/home/ricardo/Downloads/winemag-data_first150k.csv'
 os.rename(filename, './data/winemag-data_first150k.csv')
 
 df = tools.import_data()
