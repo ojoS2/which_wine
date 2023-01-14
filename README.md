@@ -7,11 +7,13 @@ The main file for this project was found in a kaggle repository [here](https://w
 
 The prediction is possible and precise (the model can have over 95% accurancy in some specific cases) because although each description is written in a somewhat free structure and poetics, some specific patterns always emerge. For example, look at the two description below taken from the record 111640 and 98966 respectivelly:
 
-*Saturated Malbec, with an opaque color and dense, sweet aromas that are slightly floral and pastry-like. Big and rich in the mouth, with bold cassis, blackberry and plum flavors floating on a soft, almost jammy structure. Finishes full and oily in texture. Rich and ready to drink now.*;
+*Saturated Malbec, with an opaque color and dense, sweet aromas that are slightly floral and pastry-like. Big and rich in the mouth, with bold cassis, blackberry and plum flavors floating on a soft, almost jammy structure. Finishes full and oily in texture. Rich and ready to drink now.*, and;
+
 *The Barolo Rocche dell'Annunziata exhibits bright berry notes followed by delicate tones of violet, slate, wet earth, spice and smoke. In the mouth, this beautiful wine delivers density and concentration capped by bright acidity and drying, firm tannins. Drink after 2015.*
 
+In these description the sensations presents a rich vocabulary and expressions which are terrible for machine learning algorithms. Nevertheless, the overall structure is workable as long as we have plenty descriptions as the same varieties presents similar characteristics such as *an opaque color and dense* or *density and concentration capped by bright acidity and drying*. What I mean is that for the somellier writing down the description, there are some specific topics to describe and the same variety presents similar descriptions. As te descriptions of those characteristics can be presented in a finite number of ways, the more data over a specific variety, the more precise a natural prossessing language model build to predict this variety will be. This also mean that the majority of the varieties will be useless as few of them prsents more than 100 descriptions.
 
-Through this analysis and through fitting a Multinomial Naive Bayes model, I build a model able to predict the wine varieties using only the somelier's descriptions of the wines present in the dataset. Additionally, the model can predict a wine variety according to a inputed description. In other words, the model is able to recomend wine varieties based on the description of a desared sensation, sideing and age inputted by the user.
+
 
 
 
